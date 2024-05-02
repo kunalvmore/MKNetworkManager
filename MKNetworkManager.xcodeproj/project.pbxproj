@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1B642A432BE3D4E200DD56B0 /* MKNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B642A422BE3D4E200DD56B0 /* MKNetworkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B642A4A2BE3D51C00DD56B0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B642A492BE3D51C00DD56B0 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B642A3F2BE3D4E200DD56B0 /* MKNetworkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B642A422BE3D4E200DD56B0 /* MKNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKNetworkManager.h; sourceTree = "<group>"; };
+		1B642A492BE3D51C00DD56B0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				1B642A422BE3D4E200DD56B0 /* MKNetworkManager.h */,
+				1B642A492BE3D51C00DD56B0 /* NetworkManager.swift */,
 			);
 			path = MKNetworkManager;
 			sourceTree = "<group>";
@@ -93,6 +96,7 @@
 				TargetAttributes = {
 					1B642A3E2BE3D4E200DD56B0 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -129,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B642A4A2BE3D51C00DD56B0 /* NetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -291,6 +297,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +308,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
