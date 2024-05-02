@@ -133,6 +133,13 @@ To integrate the MKNetworkManager framework into your Xcode project:
 
 By following these steps, you'll successfully incorporate the MKNetworkManager framework into your project for seamless usage.
 
+## Using Swift Package
+
+Link: [MKNetworkManager](https://github.com/kunalvmore/MKNetworkManager-SwiftPackage)
+
+```bash
+https://github.com/kunalvmore/MKNetworkManager-SwiftPackage
+```
 
 ## Note
 
